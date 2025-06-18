@@ -87,7 +87,7 @@ export default function HomePage() {
   const [showDesmos, setShowDesmos] = useState(false);
   const desmosRef = useRef<HTMLDivElement>(null);
   const [desmosPosition, setDesmosPosition] = useState({ x: 0, y: 0 });
-  const [desmosSize, setDesmosSize] = useState({ width: 400, height: 300 }); // Initial size
+  const [desmosSize, setDesmosSize] = useState({ width: 400, height: 700 }); // Initial size
   const isDragging = useRef(false);
   const isResizing = useRef(false);
   const dragOffset = useRef({ x: 0, y: 0 });
